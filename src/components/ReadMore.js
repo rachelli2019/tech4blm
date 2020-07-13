@@ -17,9 +17,9 @@ export default class ReadMore extends Component {
     showingAll: false
   }
 
-  // componentDidMount() {
-  //   // this.props.onContentChange();
-  // }
+  componentDidMount() {
+    this.setState({showingAll: false})
+  }
   
   toggleReadMore = () => {
     this.setState({
@@ -110,8 +110,10 @@ export default class ReadMore extends Component {
 
     let { showingAll } = this.state;
     let height;
+    // let showDescHeight = parseInt(descHeight) + 60;
+    let showDescHeight = (text.length / 38 + 1 ) * 22
     if (showingAll){
-      height = '130px'
+      height =  showDescHeight;
     }
     else {
       height = descHeight

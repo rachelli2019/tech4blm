@@ -51,10 +51,10 @@ const StyledTitle = styled.a`
 
 
 export default function Card({image, title, link, contact, donate, desc}) {
-    let charLimit = 109;
+    let charLimit = 100;
     let descHeight = '80px';
     if (title.length > 40) {
-        charLimit = 70;
+        charLimit = 65;
         descHeight = '50px';
     }
     let insertDesc = desc? desc : "Each valid ticket/festival pass guarantees entry to the event on the date and time specified on the ticket/festival pass (subject to venue legal capacity). If the original purchaser."
