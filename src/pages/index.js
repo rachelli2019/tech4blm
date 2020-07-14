@@ -6,10 +6,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Album from "../components/album"
 import CardGrid from "../components/cardGrid"
+import Navbar from "../components/navbar"
+import Footer from  "../components/footer"
 
 const IndexPage = () => (
-  
-    <CardGrid/>
+    <div>
+        <Navbar/>
+        <CardGrid/>
+    </div>
 )
 
 export default IndexPage
