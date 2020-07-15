@@ -26,6 +26,10 @@
     opacity: 0.8;
     cursor: default;
 }
+.title:hover {
+    cursor: pointer;
+    color: #0D3B66;
+}
 
 .navRight {
     list-style: none;
