@@ -24,7 +24,7 @@ export default function About() {
         <Form.Group controlId="name">
             <Form.Label>Organization Name</Form.Label>
             {/* <Form.Control type="name" placeholder="Name of organization"/> */}
-            <input type="name" placeholder="Name of organization"></input>
+            <input type="text" name="name" placeholder="Name of organization"></input>
         </Form.Group>
         <Form.Group controlId="website">
             <Form.Label>Website</Form.Label>
