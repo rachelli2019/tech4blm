@@ -1,7 +1,7 @@
 import React from "react"
 import Navbar from "../components/navbar"
 import "../styles/styles.css"
-import blm from "../../public/static/images/blm.jpg"
+import blm from "../../static/images/blm.jpg"
 
 export default function About() {
   return (
