@@ -23,13 +23,14 @@ export default function About() {
         <input type="hidden" name="form-name" value="addorg" />
         <Form.Group controlId="name">
             <Form.Label>Organization Name</Form.Label>
-            <Form.Control type="name" placeholder="Name of organization" />
+            {/* <Form.Control type="name" placeholder="Name of organization"/> */}
+            <input type="name" placeholder="Name of organization"></input>
         </Form.Group>
-        <Form.Group controlId="email">
+        <Form.Group controlId="website">
             <Form.Label>Website</Form.Label>
-            <Form.Control type="email" placeholder="Link to organization website" />
+            <Form.Control type="link" placeholder="Link to organization website" />
         </Form.Group>
-        <Form.Group controlId="message">
+        <Form.Group controlId="info">
             <Form.Label>Additional Information</Form.Label>
             <Form.Control as="textarea" placeholder="Enter any additional information" />
         </Form.Group>

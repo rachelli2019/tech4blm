@@ -14,7 +14,7 @@ export default function Contact() {
         <input type="hidden" name="form-name" value="contact" />
         <Form.Group controlId="name">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="name" placeholder="Name" />
+            <Form.Control type="name" placeholder="Name"/>
         </Form.Group>
         <Form.Group controlId="email">
             <Form.Label>Email address</Form.Label>
