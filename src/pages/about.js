@@ -23,16 +23,16 @@ export default function About() {
         <input type="hidden" name="form-name" value="addorg" />
         <Form.Group controlId="name">
             <Form.Label>Organization Name</Form.Label>
-            {/* <Form.Control type="name" placeholder="Name of organization"/> */}
-            <input type="text" name="name" placeholder="Name of organization"></input>
+            <Form.Control type="name" name="name" placeholder="Name of organization"/>
+            {/* <input type="text" name="name" placeholder="Name of organization"></input> */}
         </Form.Group>
         <Form.Group controlId="website">
             <Form.Label>Website</Form.Label>
-            <Form.Control type="link" placeholder="Link to organization website" />
+            <Form.Control type="link" name="website" placeholder="Link to organization website" />
         </Form.Group>
         <Form.Group controlId="info">
             <Form.Label>Additional Information</Form.Label>
-            <Form.Control as="textarea" placeholder="Enter any additional information" />
+            <Form.Control as="textarea" name="additional info" placeholder="Enter any additional information" />
         </Form.Group>
         <Button variant="primary" type="submit" style={{backgroundColor:"#0D3B66", border: "none"}}>
             Submit

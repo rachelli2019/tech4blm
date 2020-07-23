@@ -14,15 +14,15 @@ export default function Contact() {
         <input type="hidden" name="form-name" value="contact" />
         <Form.Group controlId="name">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="name" placeholder="Name"/>
+            <Form.Control type="name" name="name" placeholder="Name"/>
         </Form.Group>
         <Form.Group controlId="email">
             <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Email" />
+            <Form.Control type="email" name="email" placeholder="Email" />
         </Form.Group>
         <Form.Group controlId="message">
             <Form.Label>Message</Form.Label>
-            <Form.Control as="textarea" placeholder="Enter your message" />
+            <Form.Control as="textarea" name="message" placeholder="Enter your message" />
         </Form.Group>
         <Button variant="primary" type="submit" style={{backgroundColor:"#0D3B66", border: "none"}}>
             Submit
