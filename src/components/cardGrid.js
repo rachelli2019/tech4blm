@@ -109,6 +109,30 @@ class CardGrid extends React.Component {
             margin-top: 20px;
             column-gap: 0;
             row-gap: 30px;
+            /* Extra small devices (phones, 600px and down) */
+            @media only screen and (max-width: 600px) {
+                grid-template-columns: auto;
+            }
+
+            /* Small devices (portrait tablets and large phones, 600px and up) */
+            @media only screen and (min-width: 600px) {
+                grid-template-columns: auto;
+            }
+
+            /* Medium devices (landscape tablets, 768px and up) */
+            @media only screen and (min-width: 768px) {
+                grid-template-columns: auto auto;
+            }
+
+            /* Large devices (laptops/desktops, 992px and up) */
+            @media only screen and (min-width: 992px) {
+                grid-template-columns: auto auto;
+            }
+
+            /* Extra large devices (large laptops and desktops, 1200px and up) */
+            @media only screen and (min-width: 1200px) {
+                grid-template-columns: auto auto auto auto;
+            }
         `
         const StyledTagButton = styled.button`
             border-radius: 15px; 
